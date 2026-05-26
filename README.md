@@ -56,4 +56,4 @@ Make sure both devices are on the same network and update IP addresses in the co
 
 ## Contact
 
-Jovan Nikolov - https://github.com/JovanNikolov/VRobot
+Jovan Nikolov - https://github.com/JovanNikolov/VRobotThesis
