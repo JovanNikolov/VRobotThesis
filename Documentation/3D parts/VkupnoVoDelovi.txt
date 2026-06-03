@@ -1,0 +1,21 @@
+Camera: 2x SG90_MG90_Pan_and_Tilt_2a.stl
+	2x Shiny_Trug_1.stl
+	2x Shiny_Trug_2.stl
+
+Hands: 3x Base.stl
+	6x Claw.stl
+	6x Connector.stl
+	3x Connector_Gear.stl
+	3x Servo_Connector_Gear.stl
+
+sg90 Connectors: 6x arm.stl
+		6x base.stl
+		6x cover.stl
+
+MG996R connectors: 4x servoholder04.stl -- napraveni vo tvojot file
+
+MG996R connectors V2: 2x MG996R Servo 3030 Mount.stl -- napraveni vo tvojot file
+
+Forearms: 3x Surprising Uusam-Hillar.stl -- napraveni vo tvojot file
+
+Body: 1 x Magnificent Densor -- pushteno veke

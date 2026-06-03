@@ -1,0 +1,4 @@
+SG90 MG90 Servo Pan and Tilt Camera platform by tekyinblack on Thingiverse: https://www.thingiverse.com/thing:6008663
+
+Summary:
+Another take on a Pan and Tilt for SG90 servos. I didn't like the way other designs needed complicated construction or depended on single points of support, so this was designed to fulfil the function as a demonstration of the L0cost robot controller and while being reasonably robust.This object was made in Tinkercad. Edit it online https://www.tinkercad.com/things/bQn3oL0MOp6Instructable here https://www.instructables.com/Pan-and-Tilt-Camera-With-ESP32-CAM-L0Cost-Robot-Co/

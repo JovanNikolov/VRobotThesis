@@ -1,0 +1,59 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="R4F74BntZGoL10ws1bGO">
+    <mxGraphModel dx="978" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zQm24ubsSvv8cL_TP4u_-10" edge="1" parent="1" source="zQm24ubsSvv8cL_TP4u_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" target="zQm24ubsSvv8cL_TP4u_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQm24ubsSvv8cL_TP4u_-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Valve Index" vertex="1">
+          <mxGeometry height="40" width="80" x="160" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zQm24ubsSvv8cL_TP4u_-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="PC/Unity" vertex="1">
+          <mxGeometry height="40" width="80" x="160" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zQm24ubsSvv8cL_TP4u_-7" parent="1" style="fillColorStyles=neutralFill;neutralFill=#9DA6A8;shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.router;network2IconXOffset=0.0001;network2IconYOffset=-0.1142;network2IconW=1;network2IconH=0.5485;" value="" vertex="1">
+          <mxGeometry height="21.94" width="40" x="320" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="zQm24ubsSvv8cL_TP4u_-13" edge="1" parent="1" source="zQm24ubsSvv8cL_TP4u_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="zQm24ubsSvv8cL_TP4u_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQm24ubsSvv8cL_TP4u_-14" connectable="0" parent="zQm24ubsSvv8cL_TP4u_-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="I2C" vertex="1">
+          <mxGeometry relative="1" x="-0.2024" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zQm24ubsSvv8cL_TP4u_-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Raspberry Pi" vertex="1">
+          <mxGeometry height="40" width="80" x="440" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zQm24ubsSvv8cL_TP4u_-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="PCA9685" vertex="1">
+          <mxGeometry height="40" width="80" x="440" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zQm24ubsSvv8cL_TP4u_-11" edge="1" parent="1" source="zQm24ubsSvv8cL_TP4u_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.029;entryY=0.512;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=none;endFill=0;dashed=1;" target="zQm24ubsSvv8cL_TP4u_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQm24ubsSvv8cL_TP4u_-16" connectable="0" parent="zQm24ubsSvv8cL_TP4u_-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="WiFi" vertex="1">
+          <mxGeometry relative="1" x="-0.0947" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zQm24ubsSvv8cL_TP4u_-12" edge="1" parent="1" source="zQm24ubsSvv8cL_TP4u_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.956;entryY=0.512;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=none;endFill=0;dashed=1;" target="zQm24ubsSvv8cL_TP4u_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQm24ubsSvv8cL_TP4u_-17" connectable="0" parent="zQm24ubsSvv8cL_TP4u_-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="WiFi" vertex="1">
+          <mxGeometry relative="1" x="0.1603" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zQm24ubsSvv8cL_TP4u_-20" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Servos (x14)" vertex="1">
+          <mxGeometry height="70" width="50" x="455" y="280" as="geometry" />
+        </mxCell>
+        <object label="Logical" id="CiTRHGFIfl0NXKmNNK-N-1">
+          <mxCell parent="0" />
+        </object>
+        <mxCell id="CiTRHGFIfl0NXKmNNK-N-2" parent="0" value="Phisical" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

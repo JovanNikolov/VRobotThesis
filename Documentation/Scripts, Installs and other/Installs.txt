@@ -1,0 +1,15 @@
+Raspberry:
+-Login linux:
+robot
+robot
+-Camera:
+v4l2src
+-SDK:
+adafruit_pca9685 (in virtual env "venv")
+
+
+PC(Windows):
+-Unity:
+Valve index SDK
+-Camera:
+OBS websocket

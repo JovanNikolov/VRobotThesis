@@ -1,0 +1,4 @@
+SG90 Series Universal Holder Arm Version by ToonRobotics on Thingiverse: https://www.thingiverse.com/thing:6427017
+
+Summary:
+Mounting brackets for SG90 servo motors, arm version. It is also available for SG92R and SG90-HV, which have the same dimensions as SG90.Click here for the previous horizontal rotation version.https://www.thingiverse.com/thing:5844089Use M2, 15mm screws for the cover. Use M2 screws for fixing to the bottom and to the arm.Since it wraps around the SG90, it can be fixed firmly.Printing with the cover-mounting side up is recommended.Usage and Description:https://toonrobotics.com/en/sg90series_servo_mount_arm_20240110en/サーボモータSG90用の固定パーツ、アーム版です。SG90と同一の寸法であるSG92R, SG90-HVにも利用できます。以前の水平回転版はこちらhttps://www.thingiverse.com/thing:5844089カバーの固定にはM2, 15mmのネジを使用します。底面、アームへの固定はM2ネジを利用します。SG90を包み込む形なので、しっかりと固定する事ができます。カバー取り付け側を上にして印刷するのがおすすめです。使い方：https://toonrobotics.com/sg90series_servo_mount_arm_20240108/

@@ -1,0 +1,2 @@
+B button - recalibrate current position
+A button - click pause/start, hold reset to safe position

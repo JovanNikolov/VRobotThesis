@@ -1,0 +1,46 @@
+Pigpio library:
+sudo pigpiod #start pigpiod to use pwm library in raspberry pi
+
+Start streaming RPT camera on windows:
+gst-launch-1.0 autovideosrc ! videoconvert ! x264enc tune=zerolatency bitrate=500 speed-preset=ultrafast ! rtph264pay config-interval=1 pt=96 ! udpsink host=127.0.0.1 port=5004
+Optional:
+ksvideosrc device-index=1 //for camera selection
+This will:
+Capture video from your default webcam (autovideosrc).
+Convert it to H264 (x264enc).
+Send it over UDP (RTP) to 127.0.0.1:5004.
+
+gst-launch-1.0 mfvideosrc device-index=1 ! videoconvert ! x264enc tune=zerolatency bitrate=500 speed-preset=ultrafast ! rtph264pay config-interval=1 pt=96 ! udpsink host=127.0.0.1 port=5004
+
+
+ffmpeg -protocol_whitelist file,udp,rtp -i stream.sdp -f rawvideo -pix_fmt rgb24 -y output.raw
+
+ffmpeg -re -i udp://127.0.0.1:5004 -c:v libx264 -preset ultrafast -tune zerolatency -f rtsp rtsp://yourserver:8554/stream
+ffmpeg -re -i udp://127.0.0.1:5004 -c:v libx264 -preset ultrafast -tune zerolatency -hls_time 1 -hls_list_size 4 -hls_flags delete_segments -f hls stream.m3u8
+ffmpeg -i udp://127.0.0.1:5004 -c:v libx264 -preset ultrafast -tune zerolatency -hls_time 1 -hls_list_size 4 -hls_flags delete_segments -f hls stream.mp4
+ffmpeg -i C:\Users\Shatterer\Desktop\stream.sdp -c:v libx264 -preset ultrafast -tune zerolatency -b:v 500k -c:a aac -b:a 128k -f mp4 -movflags +faststart -y  C:\Users\Shatterer\Streams\stream.mp4
+ffmpeg -i udp://127.0.0.1:5004 -listen 1 -f mp4 -movflags frag_keyframe+empty_moov http://localhost:8080
+python -m http.server 8080
+
+
+
+ffmpeg -i udp://127.0.0.1:5004 -f mpegts http://localhost:8080
+
+\\NASTY\MediaServer\Movies\Fat Man and Little Boy 1989 DVD Rip XviD AC3 - RX8\Fat.Man.and.Little.Boy.1989.DVDRip.XviD.AC3-RX8.avi
+file://nasty/MediaServer/Movies/Fat%20Man%20and%20Little%20Boy%201989%20DVD%20Rip%20XviD%20AC3%20-%20RX8/Fat.Man.and.Little.Boy.1989.DVDRip.XviD.AC3-RX8.avi
+
+C:\Users\Shatterer\Desktop\stream.sdp
+
+
+
+OBS studio:
+you can run it from cmd like this
+
+start /d "C:\Program Files\obs-studio\bin\64bit\" obs64.exe --startrecording --minimize-to-tray
+
+to stop recording
+
+taskkill /F /IM obs64.exe
+
+Unity camera: Moze da rabote, trebe da sa probe na kraj
+ffmpeg -rtsp_transport udp -i rtsp://192.168.0.203:8554/unicast -pix_fmt rgb24 -f rawvideo output.raw
